@@ -5,6 +5,8 @@
     "docs:preview": "vitepress preview ."
   },
   "devDependencies": {
-    "vitepress": "1.0.0-rc.20"
+    "@types/vue": "^2.0.0",
+    "vitepress": "1.0.0-rc.20",
+    "vue": "^3.3.4"
   }
 }

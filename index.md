@@ -3,23 +3,29 @@
 layout: home
 
 hero:
-  name: "Sorber Consulting"
-  text: "A VitePress Site"
-  tagline: My great project tagline
+  name: "Sorber™ Consulting"
+  text: "Local Business Consulting"
+  tagline: Advanced Business Technology Consulting Solutions
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: Tutorials & Research
+      link: "/svelte/basicsvelte"
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: Documentation
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: IT Consulting & Support
+    details:
+      We are well versed in many different aspects of IT and web development
+      we are experienced with numerous web languages and frameworks enabling us to support a variety of different needs for businesses of
+      all sizes.
+  - title: Graphic Design
+    details:
+      We have over FIVE years of experience with graphic design both personal and professional. We can create logos,
+      business cards, flyers, and advertisements!
+  - title: AI Business Solutions
+    details:
+      Interested in leveraging AI, but don't know where to start? Contact us for a consultation where we will explain
+      the current market capabilities, the current solutions available, and how to best implement the solution that
+      your business needs!
 ---
-
