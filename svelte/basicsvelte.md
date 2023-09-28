@@ -1,3 +1,7 @@
+---
+title: Svelte I - Basics
+---
+
 <center><img src='https://i.imgur.com/tLjkD58.png' /></center>
 
 # Svelte Concepts

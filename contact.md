@@ -1,5 +1,6 @@
 ---
-layout: home
+layout: page
+title: Testing
 sidebar: false
 hero:
   name: Work in Progress...
@@ -9,5 +10,7 @@ hero:
 <script setup>
 import GradientText from './components/GradientText.vue'
   </script>
+
+{{$frontmatter.title}}
 
 <GradientText from='#c31432' size='54px' to='#240b36'>Josh</GradientText>
