@@ -5,7 +5,7 @@ export default defineConfig({
 	title: "Sorber™ Consulting",
 	description: "A VitePress Site",
 
-	base: "/jsorb84-consulting/",
+	//base: "/jsorb84-consulting/",
 	themeConfig: {
 		// https://vitepress.dev/reference/default-theme-config
 		logo: "https://avatars.githubusercontent.com/u/105475254?v=4",
