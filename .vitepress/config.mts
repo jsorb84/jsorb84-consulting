@@ -8,29 +8,49 @@ export default defineConfig({
 	appearance: "force-dark",
 	lastUpdated: true,
 
-	//base: "/jsorb84-consulting/",
+	srcDir: "src",
+	sitemap: {
+		hostname: "https://sorber.xyz",
+	},
 	themeConfig: {
-		i18nRouting: true,
 		// https://vitepress.dev/reference/default-theme-config
-		logo: "https://avatars.githubusercontent.com/u/105475254?v=4",
-
+		logo: "/logo.png",
 		nav: [
 			{ text: "Home", link: "/" },
-			{ text: "Notes", link: "/notes" },
+			{ text: "Resources", link: "/notes/" },
 			{ text: "Contact", link: "/contact" },
 		],
 
 		sidebar: [
 			{
 				text: "Personal Research Notes",
-				link: "/notes",
+				link: "/notes/",
 				items: [
 					{
 						text: "Svelte Research & Notes",
-						link: "/svelte/index",
+						link: "/notes/svelte/",
+
 						items: [
-							{ text: "Svelte I - Basics", link: "/svelte/basicsvelte" },
-							{ text: "Svelte II - Advanced", link: "/svelte/advancedsvelte" },
+							{ text: "Svelte I - Basics", link: "/notes/svelte/basics" },
+							{ text: "Svelte II - Advanced", link: "/notes/svelte/advanced" },
+						],
+					},
+					{
+						text: "Docker Notes",
+						link: "/notes/docker/",
+					},
+				],
+			},
+			{
+				text: "Resources",
+				items: [
+					{
+						text: "VSCode Extensions & Guides",
+						items: [
+							{
+								text: "NextJS Snippets",
+								link: "/resources/vscode/snippets/next",
+							},
 						],
 					},
 				],

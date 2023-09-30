@@ -4,12 +4,14 @@ const props = defineProps({
 	from: String,
 	to: String,
 	size: String,
+	font: String,
 });
 const gradientStyle = {
 	fontSize: `${props.size ?? "72px"}`,
 	background: `-webkit-linear-gradient(${props.from ?? "#006aff"}, ${
 		props.to ?? "#ea00ff"
 	})`,
+	"font-family": `${props.font ?? "Helvetica"}`,
 	"-webkit-background-clip": "text",
 	"-webkit-text-fill-color": "transparent",
 	"font-weight": `${props.fontWeight ?? 600}`,

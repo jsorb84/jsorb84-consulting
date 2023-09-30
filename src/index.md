@@ -7,12 +7,12 @@ hero:
   text: "Local Business Consulting"
   tagline: Advanced Business Technology Consulting Solutions
   image:
-    src: https://i.imgur.com/S6ClPe1.png
+    src: /logo.png
     alt: Sorber™
   actions:
     - theme: brand
       text: Tutorials & Research
-      link: "/svelte/basicsvelte"
+      link: "/notes/"
     - theme: alt
       text: Documentation
 
