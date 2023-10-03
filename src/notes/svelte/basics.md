@@ -7,7 +7,7 @@ title: Svelte I - Basics
 </script>
 <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
 
-<center><img src='https://i.imgur.com/tLjkD58.png' /></center>
+<center><img src='https://i.imgur.com/tLjkD58.png' /></center><br />
 
 # <GradientText from='#f12711' to='#f5af19' font='Oswald'>Svelte I - Basics</GradientText>
 
