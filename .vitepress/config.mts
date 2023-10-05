@@ -4,7 +4,7 @@ import { defineConfig } from "vitepress";
 export default defineConfig({
 	title: "Sorber™ Consulting",
 	description: "Sorber Consulting and research site.",
-	head: [["link", { rel: "icon", href: "favicon.ico" }]],
+	head: [["link", { rel: "icon", href: "/favicon.ico" }]],
 	appearance: "force-dark",
 	lastUpdated: true,
 
@@ -45,6 +45,20 @@ export default defineConfig({
 			{
 				text: "Resources",
 				items: [
+					{
+						text: "Custom Components",
+						items: [
+							{
+								text: "Svelte Components",
+								items: [
+									{
+										text: "Confirmation",
+										link: "/notes/components/svelte/confirmation",
+									},
+								],
+							},
+						],
+					},
 					{
 						text: "VSCode Extensions & Guides",
 						items: [
