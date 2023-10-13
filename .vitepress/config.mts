@@ -23,36 +23,76 @@ export default defineConfig({
 
 		sidebar: [
 			{
-				text: "Personal Research Notes",
+				text: "🛠️ Personal Projects",
+				link: "/projects/",
+				items: [
+					{
+						text: "<b style='color: orange;'>Svelte</b> / <b style='color: orange;'>SvelteKit</b>",
+						items: [
+							{
+								text: "🃏 Card Minigame",
+								link: "/projects/card-game/",
+								items: [
+									{
+										text: "👷‍♂️ I - Card <b style='color: sandybrown;'>Component</b>",
+										link: "/projects/card-game/phase-one/",
+										items: [
+											{
+												text: "Type Definitions",
+												link: "/projects/card-game/phase-one/types",
+											},
+										],
+									},
+									{
+										text: "⚙️ II - Card <b style='color: slateblue;'>Store</b>",
+									},
+									{ text: "🎰 III - Game Planning" },
+								],
+							},
+						],
+					},
+				],
+			},
+			{
+				text: "📝 Personal Research Notes",
 				link: "/notes/",
 				items: [
 					{
-						text: "Svelte Research & Notes",
+						text: "<b style='color: orange;'>Svelte</b> Research & Notes",
 						link: "/notes/svelte/",
 
 						items: [
-							{ text: "Svelte I - Basics", link: "/notes/svelte/basics" },
-							{ text: "Svelte II - Advanced", link: "/notes/svelte/advanced" },
-							{ text: "Svelte III - Motion", link: "/notes/svelte/motion" },
+							{
+								text: "<b style='color: orange;'>Svelte</b> I - Basics",
+								link: "/notes/svelte/basics",
+							},
+							{
+								text: "<b style='color: orange;'>Svelte</b> II - Advanced",
+								link: "/notes/svelte/advanced",
+							},
+							{
+								text: "<b style='color: orange;'>Svelte</b> III - Motion",
+								link: "/notes/svelte/motion",
+							},
 						],
 					},
 					{
-						text: "Docker Notes",
+						text: "<b style='color: teal;'>Docker</b> Notes",
 						link: "/notes/docker/",
 					},
 				],
 			},
 			{
-				text: "Resources",
+				text: "🔎 Resources",
 				items: [
 					{
 						text: "Custom Components",
 						items: [
 							{
-								text: "Svelte Components",
+								text: "<b style='color: orange;'>Svelte</b> Components",
 								items: [
 									{
-										text: "Confirmation",
+										text: "✅ Confirmation",
 										link: "/notes/components/svelte/confirmation",
 									},
 								],
@@ -60,10 +100,10 @@ export default defineConfig({
 						],
 					},
 					{
-						text: "VSCode Extensions & Guides",
+						text: "<b style='color: purple;'>VSCode</b> Extensions & Guides",
 						items: [
 							{
-								text: "NextJS Snippets",
+								text: "✂️ NextJS Snippets",
 								link: "/resources/vscode/snippets/next",
 							},
 						],

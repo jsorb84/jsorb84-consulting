@@ -7,7 +7,7 @@ const props = defineProps({
 	font: String,
 });
 const gradientStyle = {
-	fontSize: `${props.size ?? "72px"}`,
+	fontSize: `${props.size ?? ""}`,
 	background: `-webkit-linear-gradient(${props.from ?? "#006aff"}, ${
 		props.to ?? "#ea00ff"
 	})`,
