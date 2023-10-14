@@ -4,7 +4,27 @@ import { defineConfig } from "vitepress";
 export default defineConfig({
 	title: "Sorber™ Consulting",
 	description: "Sorber Consulting and research site.",
-	head: [["link", { rel: "icon", href: "/favicon.ico" }]],
+	head: [
+		["link", { rel: "icon", href: "/favicon.ico" }],
+		[
+			"script",
+			{
+				async: "",
+				src: "https://www.googletagmanager.com/gtag/js?id=G-F3M4DFJLK1",
+			},
+		],
+		[
+			"script",
+			{},
+			`
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+  
+	gtag('config', 'G-F3M4DFJLK1');
+	`,
+		],
+	],
 	appearance: "force-dark",
 	lastUpdated: true,
 
