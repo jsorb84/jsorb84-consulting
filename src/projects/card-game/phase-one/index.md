@@ -1,4 +1,15 @@
-# 🃏♦️ Card Component
+---
+title: "Chapter I Card Component"
+head:
+  - - meta
+    - name: description
+      content: In Chapter I , we will create the component for the playing card using Svelte and SvelteKit
+  - - meta
+    - name: keywords
+      content: svelte sveltekit webui learning free project cardgame game cards tutorial notes learnsvelte learnsveltekit
+---
+
+# <b style='color: sandybrown;'>Chapter I</b> - Card Component 🃏
 
 ## Component Properties
 

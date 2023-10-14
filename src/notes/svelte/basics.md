@@ -1,5 +1,11 @@
 ---
 title: Svelte I - Basics
+head:
+  - - meta
+    - name: description
+      content: Notes on the very basics of the Svelte framework.
+    - name: keywords
+      content: svelte sveltekit webui learning free project tutorial notes learnsvelte learnsveltekit
 ---
 
 <script setup>

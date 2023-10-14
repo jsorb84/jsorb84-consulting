@@ -1,3 +1,7 @@
+---
+title: NextJS Snippets - VSCode
+---
+
 # Next.JS Snippets
 
 <center><a href='https://marketplace.visualstudio.com/items?itemName=PulkitGangwar.nextjs-snippets'><img src='/nextjssnippets.png' /></a></center>

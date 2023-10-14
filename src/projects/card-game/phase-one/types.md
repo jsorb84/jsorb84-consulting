@@ -1,3 +1,16 @@
+---
+title: "Chapter I - Type Definitions"
+head:
+  - - meta
+    - name: description
+      content: The type definitions for chapter I of the card game project.
+  - - meta
+    - name: keywords
+      content: svelte sveltekit typescript webui learning free project cardgame game cards tutorial notes learnsvelte learnsveltekit
+---
+
+# Chapter I - Type Definitions
+
 ::: warning
 These are the complete typings for the project, you may want to refer back to these along the way. Most of these
 will be explained fully in the project's documentation.

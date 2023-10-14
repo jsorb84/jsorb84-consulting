@@ -1,3 +1,13 @@
+---
+title: Svelte II - Advanced
+head:
+  - - meta
+    - name: description
+      content: Notes on the advanced portions of the Svelte framework.
+    - name: keywords
+      content: svelte sveltekit webui learning free project tutorial notes learnsvelte learnsveltekit
+---
+
 <script setup>
 	import GradientText from '/components/GradientText.vue'
 </script>

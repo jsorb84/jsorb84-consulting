@@ -34,19 +34,26 @@ export default defineConfig({
 								link: "/projects/card-game/",
 								items: [
 									{
-										text: "👷‍♂️ I - Card <b style='color: sandybrown;'>Component</b>",
+										text: "👷‍♂️ <b style='color: sandybrown;'>I</b> - Card Component",
 										link: "/projects/card-game/phase-one/",
 										items: [
 											{
-												text: "Type Definitions",
+												text: "📚 Type Definitions",
 												link: "/projects/card-game/phase-one/types",
 											},
 										],
 									},
 									{
-										text: "⚙️ II - Card <b style='color: slateblue;'>Store</b>",
+										text: "⚙️ <b style='color: slateblue;'>II</b> - Card Store",
+										link: "/projects/card-game/phase-two/",
 									},
-									{ text: "🎰 III - Game Planning" },
+									{
+										text: "⌛ <b style='color: deepskyblue;'>III</b> - Game Timer",
+									},
+									{
+										text: "🎰 <b style='color: aqua;'>IV</b> - Matching Game",
+										link: "/projects/card-game/phase-four/",
+									},
 								],
 							},
 						],

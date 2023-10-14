@@ -1,3 +1,13 @@
+---
+title: Svelte III - Motion
+head:
+  - - meta
+    - name: description
+      content: Notes on the svelte/motion.
+    - name: keywords
+      content: svelte animation motion sveltekit webui learning free project tutorial notes learnsvelte learnsveltekit
+---
+
 <script setup>
 	import GradientText from '/components/GradientText.vue'
 </script>

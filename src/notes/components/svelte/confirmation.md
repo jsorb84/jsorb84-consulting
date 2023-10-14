@@ -1,3 +1,13 @@
+---
+title: Svelte Confirmation Component
+head:
+  - - meta
+    - name: description
+      content: My free Svelte confirmation component.
+    - name: keywords
+      content: svelte sveltekit webui learning free project tutorial notes learnsvelte learnsveltekit
+---
+
 <script setup>
 	import GradientText from '/components/GradientText.vue'
 </script>
