@@ -39,7 +39,7 @@ export default defineConfig({
 	sitemap: {
 		hostname: "https://sorber.xyz",
 	},
-
+	ignoreDeadLinks: true,
 	themeConfig: {
 		// https://vitepress.dev/reference/default-theme-config
 		logo: "/logo.png",

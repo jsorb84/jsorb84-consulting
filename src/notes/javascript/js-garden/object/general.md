@@ -110,7 +110,3 @@ notated as a _string literal_ to ensure that it will be correctly interpreted by
 older JavaScript engines.
 
 [1]: http://en.wikipedia.org/wiki/Hashmap
-
-```
-
-```
